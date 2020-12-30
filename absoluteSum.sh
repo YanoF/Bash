@@ -15,11 +15,11 @@ the script should print the standard output: 58 as the absolute values of the nu
 
 sum=0
 for i; do
-	if [ "$i" -ge 0 ]
+	if [ "$i" -ge 0 ]  #if the input is -ge (greater than or equal) to zero, ie positive int 
 	then
 		absval=$i
 	else
-		let "absval = (( 0 - $i ))"
+		let "absval = (( 0 - $i ))"  #convrting the negative ints into absolute vals
 	fi
 	#echo $absval
 	sum=$((sum + absval)) #sum+=num
