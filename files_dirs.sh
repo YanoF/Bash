@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# mkdir -p testDir  #normal way of creating dirs.
+# mkdir -p testDir  #normal way of creating dirs...
 
 echo "Enter dir name to check"
 read dir
